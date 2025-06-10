@@ -39,18 +39,18 @@ Visual Used	Purpose**
 🎛️ Slicer	Allow users to filter data by Date, Month, or Year to perform dynamic filtering
 
 **🧮 Key Measures (DAX)**
-DAX
-Total Confirmed = SUM('CovidData'[Confirmed])
 
-Total Recovered = SUM('CovidData'[Recovered])
+Total Confirmed = SUM('CovidData'[Confirmed]).
 
-Total Deaths = SUM('CovidData'[Deaths])
+Total Recovered = SUM('CovidData'[Recovered]).
 
-Active Cases = [Total Confirmed] - [Total Recovered] - [Total Deaths]
+Total Deaths = SUM('CovidData'[Deaths]).
 
-Recovery Rate = DIVIDE([Total Recovered], [Total Confirmed], 0)
+Active Cases = [Total Confirmed] - [Total Recovered] - [Total Deaths].
 
-Death Rate = DIVIDE([Total Deaths], [Total Confirmed], 0)
+Recovery Rate = DIVIDE([Total Recovered], [Total Confirmed], 0).
+
+Death Rate = DIVIDE([Total Deaths], [Total Confirmed], 0).
 
 **These measures are used in KPI cards, gauge charts, and calculated insights for comparative visuals.**
 
