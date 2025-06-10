@@ -40,15 +40,19 @@ Visual Used	Purpose**
 
 **🧮 Key Measures (DAX)**
 DAX
-Copy
-Edit
 Total Confirmed = SUM('CovidData'[Confirmed])
+
 Total Recovered = SUM('CovidData'[Recovered])
+
 Total Deaths = SUM('CovidData'[Deaths])
+
 Active Cases = [Total Confirmed] - [Total Recovered] - [Total Deaths]
+
 Recovery Rate = DIVIDE([Total Recovered], [Total Confirmed], 0)
+
 Death Rate = DIVIDE([Total Deaths], [Total Confirmed], 0)
-These measures are used in KPI cards, gauge charts, and calculated insights for comparative visuals.
+
+**These measures are used in KPI cards, gauge charts, and calculated insights for comparative visuals.**
 
 **💡 Dashboard Insights
 📈 Trend Analysis:** Line charts showed peaks of confirmed and death cases in specific months.
