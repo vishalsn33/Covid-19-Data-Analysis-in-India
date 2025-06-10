@@ -77,7 +77,7 @@ Check the KPI cards for real-time totals and comparisons.
 Gauge charts show recovery or mortality rate in a percentage scale.
 
 
-**Dashboard-preview:  **  
+**Dashboard-preview:  **  : https://github.com/vishalsn33/Covid-19-Data-Analysis-in-India/blob/main/Covid-19%20Data%20Analysis%20in%20India.png
 🙌 Acknowledgements
 Data collected for educational use
 
