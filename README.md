@@ -30,12 +30,19 @@ Data Modeling – Date hierarchy, measures, and filters
 
 **📊 Power BI Visuals Used and Their Purposes
 Visual Used	Purpose**
+
 ✅ KPI Card	Show main metrics like Total Confirmed, Total Deaths, Total Recovered, Active Cases.
+
 📈 Line Chart	Visualize daily or monthly trends of Confirmed, Recovered, and Death cases over time.
+
 📊 Bar Chart	Compare case types (Confirmed, Recovered, Deaths) on different dates or months.
+
 🥧 Pie Chart	Show percentage distribution of Confirmed, Recovered, and Deaths cases.
+
 🗺️ Map	Highlight New Delhi (or other cities if available) with bubble size based on total cases.
+
 🎯 Gauge Chart	Show metrics like Recovery Rate or Death Rate visually using threshold indicators.
+
 🎛️ Slicer	Allow users to filter data by Date, Month, or Year to perform dynamic filtering.
 
 **🧮 Key Measures (DAX)**
