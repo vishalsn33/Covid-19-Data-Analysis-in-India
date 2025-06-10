@@ -83,4 +83,4 @@ Data collected for educational use
 
 Built using Microsoft Power BI
 
-Inspired by real-time COVID-19 dashboards used by governments and NGOs
+Inspired by real-time COVID-19 dashboards used by governments and NGOs.
